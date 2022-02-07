@@ -1,0 +1,20 @@
+{
+    "name": "u0_a475/botpin",
+    "type": "project",
+    "require": {
+        "seregazhuk/pinterest-bot": "^5.9",
+        "raiym/instagram-php-scraper": "^0.12.4"
+    },
+    "license": "ISC",
+    "autoload": {
+        "psr-4": {
+            "U0A475\\Botpin\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "fdciabdul",
+            "email": "abdulmuttaqin456@gmail.com"
+        }
+    ]
+}
