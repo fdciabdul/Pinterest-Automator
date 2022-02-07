@@ -1,0 +1,49 @@
+!!! HARAP DIBACA !!
+
+Script ini harus dijalankan di localhost , atau dengan proxy yang sama dengan ip nya
+
+Jika tidak , akun akan lebih gampang ke suspend 
+( saya gaakan tanggung jawab )
+
+Cara pemasangan :
+
+ Windows :
+Alat yang di gunakan ( Xampp dengan versi PHP 7.4 )
+
+- Extract script ini ke folder C:/xampp/htdocs
+- Jalankan xampp ,lalu nyalakan apache 
+ gausah mysql nya supaya ga terlalu memberatkan RAM
+ 
+Linux :
+
+Alat yang di gunakan (Lampp / Terminal )
+
+- ekstra folder ke htdocs 
+- Jalankan lampp/wampp
+
+atau buka Terminal dan ketik 
+$apt-get install php php-apache 
+$wget
+
+
+
+Android :
+
+Alat yang digunakan ( Termux  )
+
+copas command dibawah ini di termux tanpa tanda ($)
+
+$ pkg install wget php php-apache apache2 -y
+
+$ wget https://raw.githubusercontent.com/f
+dciabdul/InstagramAccountCreator/
+master/httpd.conf && mv 
+httpd.conf $PREFIX/etc/apache2
+
+lalu jalankan server 
+
+$ apachectl
+
+dan buka browser dengan alamat
+
+127.0.0.1:8080
